@@ -1,0 +1,100 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "randomId": "cjvevm6470",
+    "contentId": "builtin_single-choice-Akheva",
+    "invalidContentId": "",
+    "keywords": {
+      "AROL": [
+        "AROL",
+        "📌 Asignación ROL"
+      ],
+      "ATR": [
+        "ATR",
+        "📌 Asignación transacción"
+      ],
+      "ATO": [
+        "ATO",
+        "📌 Asignación ajuste Objeto"
+      ]
+    },
+    "config": {
+      "nbMaxRetries": 3,
+      "repeatChoicesOnInvalid": false
+    }
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-Akheva {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "571877"
+    },
+    {
+      "name": "parse",
+      "onReceive": [
+        "basic-skills/choice_parse_answer {\"randomId\":\"cjvevm6470\",\"contentId\":\"builtin_single-choice-Akheva\",\"invalidContentId\":\"\",\"keywords\":{\"AROL\":[\"AROL\",\"📌 Asignación ROL\"],\"ATR\":[\"ATR\",\"📌 Asignación transacción\"],\"ATO\":[\"ATO\",\"📌 Asignación ajuste Objeto\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false}}"
+      ],
+      "next": [
+        {
+          "condition": "temp['skill-choice-valid-cjvevm6470'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "invalid"
+        }
+      ],
+      "triggers": [
+        {
+          "conditions": [
+            {
+              "id": "always"
+            }
+          ]
+        }
+      ],
+      "onEnter": [],
+      "id": "161168"
+    },
+    {
+      "name": "invalid",
+      "onEnter": [
+        "basic-skills/choice_invalid_answer {\"randomId\":\"cjvevm6470\"}"
+      ],
+      "next": [
+        {
+          "condition": "Number(temp['skill-choice-invalid-count-cjvevm6470']) > Number(3)",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "sorry"
+        }
+      ],
+      "id": "622550"
+    },
+    {
+      "name": "sorry",
+      "onEnter": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "238669"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+[
+  {
+    "id": "builtin_single-choice-aLS0_V",
+    "formData": {
+      "choices$es": [
+        {
+          "title": "Op 1",
+          "value": "op1"
+        },
+        {
+          "title": "Op 2",
+          "value": "op2"
+        }
+      ],
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Elija una opcion"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:00:37.572Z",
+    "modifiedOn": "2020-04-30T03:00:37.572Z"
+  },
+  {
+    "id": "builtin_single-choice-gXUEMS",
+    "formData": {
+      "choices$es": [
+        {
+          "title": "✅ Por intentos fallidos",
+          "value": "PIF"
+        },
+        {
+          "title": "✅ Por Bloq. Administrador",
+          "value": "PBA"
+        }
+      ],
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Elige la opcion por la cual necesita el desploqueo 🚫 por favor 😀 :"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:06:27.020Z",
+    "modifiedOn": "2020-04-30T03:06:27.020Z"
+  },
+  {
+    "id": "builtin_single-choice-I-I5Qa",
+    "formData": {
+      "choices$es": [
+        {
+          "title": "✔️ Con Cuenta SAP",
+          "value": "CCSAP"
+        },
+        {
+          "title": "❌ Sin Cuenta SAP",
+          "value": "SCSAP"
+        }
+      ],
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Elije una de las siguientes opciones 👇: "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:08:28.601Z",
+    "modifiedOn": "2020-04-30T03:08:28.601Z"
+  },
+  {
+    "id": "builtin_single-choice-Akheva",
+    "formData": {
+      "choices$es": [
+        {
+          "title": "📌 Asignación ROL",
+          "value": "AROL"
+        },
+        {
+          "title": "📌 Asignación transacción",
+          "value": "ATR"
+        },
+        {
+          "title": "📌 Asignación ajuste Objeto",
+          "value": "ATO"
+        }
+      ],
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Elija una opcion segun el tipo de transacción que desea 📝😊 : "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:09:54.394Z",
+    "modifiedOn": "2020-05-01T14:17:24.283Z"
+  },
+  {
+    "id": "builtin_single-choice-faPeqo",
+    "formData": {
+      "choices$es": [
+        {
+          "title": "Desbloqueo",
+          "value": "DES"
+        },
+        {
+          "title": "Reemplazo",
+          "value": "REE"
+        },
+        {
+          "title": "Asignacion de Transaccion",
+          "value": "AST"
+        }
+      ],
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Elige una Opción"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-05-01T01:16:52.308Z",
+    "modifiedOn": "2020-05-01T01:16:52.308Z"
+  }
+]

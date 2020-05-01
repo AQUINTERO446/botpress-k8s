@@ -1,0 +1,40 @@
+version: '3'
+
+volumes:
+    postgres:
+
+networks:
+    main_net:
+
+services:
+  postgres:
+    image: postgres:9.6.10
+    # ports:
+    #   - 5432:5432
+    env_file: ./services/postgres/.env
+    volumes:
+        - postgres:/var/lib/postgresql/data
+    networks:
+      - main_net 
+  botpress:
+    build: ./services/botpress
+    env_file: ./services/botpress/.env
+    command: "./bp"
+    volumes:
+      - ./services/botpress/data:/botpress/data
+    links:
+      - postgres
+    ports:
+      - 3000:3000
+    networks:
+      - main_net 
+  nginx:
+    image: nginx:botpress
+    build: ./services/webpage
+    ports:
+      - 80:80
+      - 443:443
+    links:
+      - botpress
+    networks:
+      - main_net 

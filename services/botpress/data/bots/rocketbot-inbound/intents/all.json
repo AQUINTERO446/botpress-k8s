@@ -1,0 +1,112 @@
+{
+  "name": "all",
+  "utterances": {
+    "es": [
+      "all",
+      "hola",
+      "buenos días",
+      "adíos"
+    ]
+  },
+  "slots": [
+    {
+      "id": "4fibzpj2M7cYUvWZZbh6T",
+      "name": "all",
+      "entities": [
+        "any"
+      ],
+      "color": 1
+    },
+    {
+      "id": "akuUCUlA8qLkSUPfm2HOn",
+      "name": "idUser",
+      "entities": [
+        "number"
+      ],
+      "color": 2
+    },
+    {
+      "id": "KiaTL8_2DgVWzNxpEAg3S",
+      "name": "email",
+      "entities": [
+        "email"
+      ],
+      "color": 3
+    },
+    {
+      "id": "_RatDhJzg0Y22DHj_lJ8y",
+      "name": "cargo",
+      "entities": [
+        "any"
+      ],
+      "color": 4
+    },
+    {
+      "id": "jgVlBbOt_Z8diguT_-t_v",
+      "name": "telefono",
+      "entities": [
+        "number"
+      ],
+      "color": 5
+    },
+    {
+      "id": "-kT-ao78lvE4fLN4lzVOO",
+      "name": "idUserREE",
+      "entities": [
+        "number"
+      ],
+      "color": 7
+    },
+    {
+      "id": "HZb0i7DUAq9m_jnabM3nY",
+      "name": "emailREE",
+      "entities": [
+        "email"
+      ],
+      "color": 8
+    },
+    {
+      "id": "AQQ_trqqxVP5vfTnp19SU",
+      "name": "cargoREE",
+      "entities": [
+        "any"
+      ],
+      "color": 9
+    },
+    {
+      "id": "HBV-vinSOw1jDJcTfJKKc",
+      "name": "idUserSOL",
+      "entities": [
+        "number"
+      ],
+      "color": 10
+    },
+    {
+      "id": "5ANDuwGwsJhun83Zdg9eA",
+      "name": "emailSOL",
+      "entities": [
+        "email"
+      ],
+      "color": 11
+    },
+    {
+      "id": "sPEbsIinp-glhV5mP2Daj",
+      "name": "periodo",
+      "entities": [
+        "date"
+      ],
+      "color": 12
+    },
+    {
+      "id": "6tIDBupgZkiX-2FyTvjzu",
+      "name": "transaccion",
+      "entities": [
+        "any"
+      ],
+      "color": 13
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

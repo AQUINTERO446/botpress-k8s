@@ -1,0 +1,814 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-e13764"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-OSci-k"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-84f837",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-84f837",
+      "flow": "skills/Slot-84f837.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-76c34c"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-76c34c"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-76c34c"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-76c34c",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-76c34c",
+      "flow": "skills/Slot-76c34c.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-543be6"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-543be6"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-543be6"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-543be6",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-543be6",
+      "flow": "skills/Slot-543be6.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-d006a6"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-d006a6"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-d006a6"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-d006a6",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-d006a6",
+      "flow": "skills/Slot-d006a6.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "end.flow.json"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "end.flow.json"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "end.flow.json"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-9ab477",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-9ab477",
+      "flow": "skills/choice-9ab477.flow.json",
+      "next": [
+        {
+          "caption": "User picked [PIF]",
+          "condition": "temp['skill-choice-ret-wf925r05lj'] == \"PIF\"",
+          "node": "Slot-84f837"
+        },
+        {
+          "caption": "User picked [PBA]",
+          "condition": "temp['skill-choice-ret-wf925r05lj'] == \"PBA\"",
+          "node": "Slot-84f837"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "Slot-84f837"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-055f66",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-055f66",
+      "flow": "skills/choice-055f66.flow.json",
+      "next": [
+        {
+          "caption": "User picked [CCSAP]",
+          "condition": "temp['skill-choice-ret-srs93w6xxq'] == \"CCSAP\"",
+          "node": "Slot-81eacd"
+        },
+        {
+          "caption": "User picked [SCSAP]",
+          "condition": "temp['skill-choice-ret-srs93w6xxq'] == \"SCSAP\"",
+          "node": "Slot-81eacd"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "Slot-81eacd"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-c226b0",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-c226b0",
+      "flow": "skills/choice-c226b0.flow.json",
+      "next": [
+        {
+          "caption": "User picked [AROL]",
+          "condition": "temp['skill-choice-ret-cjvevm6470'] == \"AROL\"",
+          "node": "Slot-81eacd-copy-1"
+        },
+        {
+          "caption": "User picked [ATR]",
+          "condition": "temp['skill-choice-ret-cjvevm6470'] == \"ATR\"",
+          "node": "Slot-81eacd-copy-1-copy-1"
+        },
+        {
+          "caption": "User picked [ATO]",
+          "condition": "temp['skill-choice-ret-cjvevm6470'] == \"ATO\"",
+          "node": "Slot-81eacd-copy-1-copy-1-copy"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "Slot-81eacd-copy-1"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-81eacd",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-81eacd",
+      "flow": "skills/Slot-81eacd.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-76c34c-copy"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-76c34c-copy"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-76c34c-copy"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "eb2fdbd2f4",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-76c34c-copy",
+      "flow": "skills/Slot-76c34c.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-543be6-copy"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-543be6-copy"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-543be6-copy"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "8ab6391670",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-543be6-copy",
+      "flow": "skills/Slot-543be6.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-ca389d"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-ca389d"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-ca389d"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "b3a76b57de",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-81eacd-copy-1",
+      "flow": "skills/Slot-81eacd.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-76c34c-copy-copy-2"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-76c34c-copy-copy-2"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-76c34c-copy-copy-2"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "0a73e9c35f",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-76c34c-copy-copy-2",
+      "flow": "skills/Slot-76c34c.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-5f9af6"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-5f9af6"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-5f9af6"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-ca389d",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-ca389d",
+      "flow": "skills/Slot-ca389d.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-0b1638"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-0b1638"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-0b1638"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-0b1638",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-0b1638",
+      "flow": "skills/Slot-0b1638.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-398f76"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-398f76"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-398f76"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-398f76",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-398f76",
+      "flow": "skills/Slot-398f76.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "end.flow.json"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "end.flow.json"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "end.flow.json"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-5f9af6",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-5f9af6",
+      "flow": "skills/Slot-5f9af6.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-1a81be"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-1a81be"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-1a81be"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-1a81be",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-1a81be",
+      "flow": "skills/Slot-1a81be.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-7e09d1"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-7e09d1"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-7e09d1"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-7e09d1",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-7e09d1",
+      "flow": "skills/Slot-7e09d1.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-86fbc2"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-86fbc2"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-86fbc2"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-86fbc2",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-86fbc2",
+      "flow": "skills/Slot-86fbc2.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "end.flow.json"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "end.flow.json"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "end.flow.json"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-efe28e",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-efe28e",
+      "flow": "skills/Slot-efe28e.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-86fbc2"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-86fbc2"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-86fbc2"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-32f88a",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-32f88a",
+      "flow": "skills/Slot-32f88a.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-86fbc2"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-86fbc2"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-86fbc2"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-e13764",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-e13764",
+      "flow": "skills/choice-e13764.flow.json",
+      "next": [
+        {
+          "caption": "User picked [DES]",
+          "condition": "temp['skill-choice-ret-gbido3aqn8'] == \"DES\"",
+          "node": "choice-9ab477"
+        },
+        {
+          "caption": "User picked [REE]",
+          "condition": "temp['skill-choice-ret-gbido3aqn8'] == \"REE\"",
+          "node": "choice-055f66"
+        },
+        {
+          "caption": "User picked [AST]",
+          "condition": "temp['skill-choice-ret-gbido3aqn8'] == \"AST\"",
+          "node": "choice-c226b0"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "error.flow.json"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "82118ee0a8",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-81eacd-copy-1-copy-1",
+      "flow": "skills/Slot-81eacd.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-76c34c-copy-copy-2-copy"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-76c34c-copy-copy-2-copy"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-76c34c-copy-copy-2-copy"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "7f411c0020",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-76c34c-copy-copy-2-copy",
+      "flow": "skills/Slot-76c34c.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-5f9af6-copy"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-5f9af6-copy"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-5f9af6-copy"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "2722419096",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-5f9af6-copy",
+      "flow": "skills/Slot-5f9af6.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-1a81be-copy"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-1a81be-copy"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-1a81be-copy"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "6715a42275",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-1a81be-copy",
+      "flow": "skills/Slot-1a81be.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-efe28e"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-efe28e"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-efe28e"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "bb46a38faf",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-81eacd-copy-1-copy-1-copy",
+      "flow": "skills/Slot-81eacd.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-76c34c-copy-copy-2-copy-copy"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-76c34c-copy-copy-2-copy-copy"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-76c34c-copy-copy-2-copy-copy"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "63f7ab8e3a",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-76c34c-copy-copy-2-copy-copy",
+      "flow": "skills/Slot-76c34c.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-5f9af6-copy-copy"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-5f9af6-copy-copy"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-5f9af6-copy-copy"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "7d57f5ca33",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-5f9af6-copy-copy",
+      "flow": "skills/Slot-5f9af6.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-1a81be-copy-copy"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-1a81be-copy-copy"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-1a81be-copy-copy"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "bf867cc3ca",
+      "type": "skill-call",
+      "skill": "Slot",
+      "name": "Slot-1a81be-copy-copy",
+      "flow": "skills/Slot-1a81be.flow.json",
+      "next": [
+        {
+          "caption": "On extracted",
+          "condition": "temp.extracted == \"true\"",
+          "node": "Slot-32f88a"
+        },
+        {
+          "caption": "On not found",
+          "condition": "temp.notExtracted == \"true\"",
+          "node": "Slot-32f88a"
+        },
+        {
+          "caption": "On already extracted",
+          "condition": "temp.alreadyExtracted == \"true\"",
+          "node": "Slot-32f88a"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

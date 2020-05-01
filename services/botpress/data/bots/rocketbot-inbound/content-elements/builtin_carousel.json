@@ -1,0 +1,118 @@
+[
+  {
+    "id": "builtin_carousel-lNeZ36",
+    "formData": {
+      "typing$es": true,
+      "items$es": [
+        {
+          "title": "Elige una Opcion",
+          "actions": [
+            {
+              "action": "Postback",
+              "title": "Desbloqueo",
+              "payload": "DES",
+              "text": "Desbloqueo"
+            },
+            {
+              "action": "Postback",
+              "title": "Reemplazo",
+              "payload": "REE"
+            },
+            {
+              "action": "Postback",
+              "text": "{\"status\": \"AST\"}",
+              "title": "Asignacion de Transaccion",
+              "payload": "AST"
+            }
+          ]
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-29T04:11:20.959Z",
+    "modifiedOn": "2020-04-30T02:21:09.308Z"
+  },
+  {
+    "id": "builtin_carousel-CUoUMw",
+    "formData": {
+      "typing$es": true,
+      "items$es": [
+        {
+          "title": "Elige la opcion por la cual necesita el desploqueo 🚫 por favor 😀 :",
+          "actions": [
+            {
+              "action": "Postback",
+              "title": "✅ Por intentos fallidos",
+              "payload": "PIF"
+            },
+            {
+              "action": "Postback",
+              "title": "✅ Bloq. Administrador",
+              "payload": "BQA"
+            }
+          ]
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T02:21:40.156Z",
+    "modifiedOn": "2020-04-30T03:06:38.152Z"
+  },
+  {
+    "id": "builtin_carousel-3PF5VQ",
+    "formData": {
+      "typing$es": true,
+      "items$es": [
+        {
+          "actions": [
+            {
+              "action": "Postback",
+              "title": "✔️ Con Cuenta SAP",
+              "payload": "CCSAP"
+            },
+            {
+              "action": "Postback",
+              "title": "❌ Sin Cuenta SAP",
+              "payload": "SCSAP"
+            }
+          ],
+          "title": "Elije una de las siguientes opciones 👇: "
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T02:26:19.649Z",
+    "modifiedOn": "2020-04-30T02:43:33.534Z"
+  },
+  {
+    "id": "builtin_carousel-jeg4rX",
+    "formData": {
+      "typing$es": true,
+      "items$es": [
+        {
+          "title": "Elija una opcion segun el tipo de transacción que desea 📝😊 : ",
+          "actions": [
+            {
+              "action": "Postback",
+              "title": "📌 Asignación ROL",
+              "payload": "AROL"
+            },
+            {
+              "action": "Postback",
+              "title": "📌 Asignación transacción",
+              "payload": "ATR"
+            },
+            {
+              "action": "Postback",
+              "title": "📌 Asignación ajuste objeto",
+              "payload": "AAO"
+            }
+          ]
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T02:39:17.664Z",
+    "modifiedOn": "2020-04-30T02:39:17.664Z"
+  }
+]

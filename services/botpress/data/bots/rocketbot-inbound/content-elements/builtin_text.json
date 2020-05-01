@@ -1,0 +1,429 @@
+[
+  {
+    "id": "builtin_text-OSci-k",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Hola 👋, *Rocketbot* te da la bienvenida.\n\nEs tiempo de cuidarnos. Durante este período de contingencia nuestro *_asistente virtual_* seguirá atendiéndote las 24 ⏰ horas del día.",
+      "variations$es": [
+        "Hola 👋, *Rocketbot* te da la bienvenida.\nNuestro *_asistente virtual_* seguirá atendiéndote las 24 ⏰ horas del día."
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-29T04:05:03.223Z",
+    "modifiedOn": "2020-04-29T04:05:03.223Z"
+  },
+  {
+    "id": "builtin_text-dq7S1b",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Elige tu opción",
+      "variations$es": [
+        "Elige una opción"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-29T04:06:43.806Z",
+    "modifiedOn": "2020-04-29T04:06:43.806Z"
+  },
+  {
+    "id": "builtin_text-wiZ1py",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "dES"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T00:54:43.162Z",
+    "modifiedOn": "2020-04-30T00:54:43.162Z"
+  },
+  {
+    "id": "builtin_text-qe8cZu",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "ALWAYS"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T00:55:00.001Z",
+    "modifiedOn": "2020-04-30T00:55:00.001Z"
+  },
+  {
+    "id": "builtin_text-dj-B8i",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "123"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T02:13:18.492Z",
+    "modifiedOn": "2020-04-30T02:13:18.492Z"
+  },
+  {
+    "id": "builtin_text-zgLEBV",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese su Id de usuario"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T02:26:45.323Z",
+    "modifiedOn": "2020-04-30T02:26:45.323Z"
+  },
+  {
+    "id": "builtin_text-n3Dn-3",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Dato no válido❌, inténtelo nuevamente "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T02:27:28.550Z",
+    "modifiedOn": "2020-05-01T14:38:33.521Z"
+  },
+  {
+    "id": "builtin_text-ms-p3o",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese por favor Id. de usuario "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T02:46:35.967Z",
+    "modifiedOn": "2020-04-30T02:46:35.967Z"
+  },
+  {
+    "id": "builtin_text-zPIyJd",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Dato no válido❌, inténtelo nuevamente "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T02:47:29.886Z",
+    "modifiedOn": "2020-05-01T14:38:30.304Z"
+  },
+  {
+    "id": "builtin_text-vB1C9k",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese cargo de usuario 👩‍🏭",
+      "variations$es": [
+        ""
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T02:49:25.959Z",
+    "modifiedOn": "2020-04-30T02:54:48.636Z"
+  },
+  {
+    "id": "builtin_text-2qoADo",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "!Ups a ocurrido algo..."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T02:58:20.082Z",
+    "modifiedOn": "2020-04-30T02:58:28.162Z"
+  },
+  {
+    "id": "builtin_text-TJMToR",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese E-mail de usuario 📧 :"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T02:58:47.658Z",
+    "modifiedOn": "2020-04-30T03:48:33.730Z"
+  },
+  {
+    "id": "builtin_text-dPwJng",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Dato no válido❌, inténtelo nuevamente "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T02:59:24.738Z",
+    "modifiedOn": "2020-05-01T14:38:39.613Z"
+  },
+  {
+    "id": "builtin_text-KjbN4x",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese telefono del usuario 📲"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:01:33.709Z",
+    "modifiedOn": "2020-04-30T03:01:58.492Z"
+  },
+  {
+    "id": "builtin_text-f3hehR",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese Id. del usuario SAP 🤠:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:13:01.380Z",
+    "modifiedOn": "2020-04-30T03:49:07.818Z"
+  },
+  {
+    "id": "builtin_text-woXFwv",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese Id. del usuario SAP de REEMPLAZO:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:15:32.657Z",
+    "modifiedOn": "2020-04-30T03:15:47.612Z"
+  },
+  {
+    "id": "builtin_text-MDYv_s",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese Email del usuario SAP de REEMPLAZO 📧:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:17:03.223Z",
+    "modifiedOn": "2020-04-30T03:17:03.223Z"
+  },
+  {
+    "id": "builtin_text-MeE-xf",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese cargo del usuario SAP de REEMPLAZO 👩‍🔧 :"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:18:49.396Z",
+    "modifiedOn": "2020-04-30T03:18:49.396Z"
+  },
+  {
+    "id": "builtin_text-imSQ-F",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese Id. del usuario SAP de REEMPLAZO  :"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:29:01.389Z",
+    "modifiedOn": "2020-04-30T03:29:01.389Z"
+  },
+  {
+    "id": "builtin_text-8zvn75",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Dato no válido❌, inténtelo nuevamente "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:29:51.290Z",
+    "modifiedOn": "2020-05-01T14:38:27.073Z"
+  },
+  {
+    "id": "builtin_text-mR6xC_",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese Email del usuario SAP de REEMPLAZO 📧 :"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:31:04.504Z",
+    "modifiedOn": "2020-04-30T03:31:04.504Z"
+  },
+  {
+    "id": "builtin_text-XzjNyK",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Dato no válido❌, inténtelo nuevamente "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:31:19.801Z",
+    "modifiedOn": "2020-05-01T14:38:08.401Z"
+  },
+  {
+    "id": "builtin_text-CrkKLb",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese Cargo/Rol del usuario SAP de REEMPLAZO:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:32:25.445Z",
+    "modifiedOn": "2020-04-30T03:32:25.445Z"
+  },
+  {
+    "id": "builtin_text-4TWl0p",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Dato no válido❌, inténtelo nuevamente "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:32:43.199Z",
+    "modifiedOn": "2020-05-01T14:38:20.066Z"
+  },
+  {
+    "id": "builtin_text-43venb",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese Id. Usuario del solicitante 😀 :"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:34:30.071Z",
+    "modifiedOn": "2020-04-30T03:48:21.239Z"
+  },
+  {
+    "id": "builtin_text-iKCbsV",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Dato no válido❌, inténtelo nuevamente "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:34:46.501Z",
+    "modifiedOn": "2020-05-01T14:38:23.317Z"
+  },
+  {
+    "id": "builtin_text-h2JUja",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese Email del usuario solicitante 📧 :"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:36:03.488Z",
+    "modifiedOn": "2020-04-30T03:47:31.762Z"
+  },
+  {
+    "id": "builtin_text-E_oe34",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Dato no válido❌, inténtelo nuevamente "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:36:17.384Z",
+    "modifiedOn": "2020-05-01T14:38:17.287Z"
+  },
+  {
+    "id": "builtin_text-tOAWvE",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese ROL a asignar 👩‍🔧:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:38:49.484Z",
+    "modifiedOn": "2020-04-30T03:47:04.264Z"
+  },
+  {
+    "id": "builtin_text-EsibJ9",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Dato no válido❌, inténtelo nuevamente "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:39:04.814Z",
+    "modifiedOn": "2020-05-01T14:37:48.790Z"
+  },
+  {
+    "id": "builtin_text-ltiTV0",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese periodo (fecha hasta) 📆:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:41:51.831Z",
+    "modifiedOn": "2020-04-30T03:41:51.831Z"
+  },
+  {
+    "id": "builtin_text-5e_-vW",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Dato no válido❌, inténtelo nuevamente "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:42:03.614Z",
+    "modifiedOn": "2020-05-01T14:38:05.095Z"
+  },
+  {
+    "id": "builtin_text-r324bY",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese transacción a asignar 🖋️:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:44:42.926Z",
+    "modifiedOn": "2020-04-30T03:44:42.926Z"
+  },
+  {
+    "id": "builtin_text--nPKOi",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Dato no válido❌, inténtelo nuevamente "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:45:08.807Z",
+    "modifiedOn": "2020-05-01T14:38:42.860Z"
+  },
+  {
+    "id": "builtin_text-MUdWoC",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Ingrese objeto a asignar 🧷 :"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:46:25.118Z",
+    "modifiedOn": "2020-04-30T03:46:25.118Z"
+  },
+  {
+    "id": "builtin_text-TLYla-",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Dato no válido❌, inténtelo nuevamente "
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-30T03:46:36.665Z",
+    "modifiedOn": "2020-05-01T14:38:45.442Z"
+  },
+  {
+    "id": "builtin_text-AADsh6",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Gracias por contactarte con nosotros."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-05-01T01:22:03.732Z",
+    "modifiedOn": "2020-05-01T01:22:03.732Z"
+  },
+  {
+    "id": "builtin_text-O9bBxe",
+    "formData": {
+      "markdown$es": true,
+      "typing$es": true,
+      "text$es": "Puedes volver a hablar en cualquier momento para iniciar una nueva conversación."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-05-01T01:22:25.939Z",
+    "modifiedOn": "2020-05-01T01:22:25.939Z"
+  }
+]

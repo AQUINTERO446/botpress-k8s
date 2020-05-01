@@ -1,0 +1,12 @@
+{
+  "id": "date",
+  "name": "date",
+  "type": "pattern",
+  "occurrences": [],
+  "sensitive": false,
+  "fuzzy": 0.8,
+  "examples": [
+    "4/1/2001"
+  ],
+  "pattern": "^\\d{1,2}\\/\\d{1,2}\\/\\d{4}$"
+}

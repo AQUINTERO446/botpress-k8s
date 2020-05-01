@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<body>
+<script src="http://localhost/botbuilder/assets/modules/channel-web/inject.js"></script>
+
+<script>
+    window.botpressWebChat.init({
+  host: 'http://localhost/botbuilder',
+  botId: 'rocketbot-inbound', //The ID for your bot
+  botName: 'RocketBot', // Name of your bot
+  botAvatarUrl: null, // Default avatar URL of the image (e.g., 'https://avatars3.githubusercontent.com/u/1315508?v=4&s=400' )
+  botConvoDescription: '',
+  backgroundColor: '#ffffff', // Color of the background
+  textColorOnBackground: '#666666', // Color of the text on the background
+  foregroundColor: '#0176ff', // Element background color (header, composer, button..)
+  textColorOnForeground: '#ffffff', // Element text color (header, composer, button..)
+  showConversationsButton: true, // Whether or not to show the conversations button
+  showUserName: false, // Whether or not to show the user's name
+  showUserAvatar: false, // Whether or not to show the user's avatar
+  enableTranscriptDownload: false, // Whether or not to show the transcript download button
+  enableArrowNavigation: false, //Whether or to to support arrow navigation (e.g scroll conversation, focus on buttons)
+//   externalAuthToken: '', // Defines a token that is sent with each messages to Botpress
+  userId: null, // Allows you to override the default user id. Make sure it is not possible to guess it!
+  enableReset: false, // Whether or not reset button will be shown to the user
+  extraStylesheet: '/assets/modules/channel-web/rocketbot/style.css' // Define a custom style sheet to override Botpress styling
+})
+  </script>

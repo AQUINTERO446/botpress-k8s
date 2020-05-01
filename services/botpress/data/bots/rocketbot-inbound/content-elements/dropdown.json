@@ -1,0 +1,29 @@
+[
+  {
+    "id": "dropdown-Sb4apb",
+    "formData": {
+      "buttonText$es": "Elige una opcion",
+      "width$es": 200,
+      "displayInKeyboard$es": true,
+      "typing$es": true,
+      "message$es": "Elige una opcion",
+      "options$es": [
+        {
+          "label": "Desbloqueo",
+          "value": "Desbloqueo"
+        },
+        {
+          "label": "Reemplazo",
+          "value": "Reemplazo"
+        },
+        {
+          "label": "Asignacion Transaccion",
+          "value": "Asignacion Transaccion"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-29T04:08:35.200Z",
+    "modifiedOn": "2020-04-29T04:08:35.200Z"
+  }
+]

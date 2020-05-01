@@ -1,0 +1,20 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "triggers": [],
+  "description": "",
+  "nodes": [
+    {
+      "id": "40096cad54",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-AADsh6",
+        "say #!builtin_text-O9bBxe"
+      ],
+      "onReceive": null,
+      "next": [],
+      "type": "standard"
+    }
+  ]
+}

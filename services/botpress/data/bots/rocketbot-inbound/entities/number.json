@@ -1,0 +1,10 @@
+{
+  "id": "number",
+  "name": "number",
+  "type": "pattern",
+  "occurrences": [],
+  "sensitive": false,
+  "fuzzy": 0.8,
+  "examples": [],
+  "pattern": "^\\d+"
+}

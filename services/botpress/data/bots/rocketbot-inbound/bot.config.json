@@ -1,0 +1,53 @@
+{
+  "locked": false,
+  "disabled": false,
+  "private": false,
+  "details": {
+    "website": "https://rocketbot.co/",
+    "phoneNumber": "",
+    "emailAddress": "",
+    "termsConditions": "",
+    "privacyPolicy": "",
+    "avatarUrl": "/api/v1/bots/rocketbot-inbound/media/4ylvujui1ho2su73o6cw-logo.png",
+    "coverPictureUrl": "/api/v1/bots/rocketbot-inbound/media/zwkndpxje5rbr09nj15i-logo.png"
+  },
+  "$schema": "../../bot.config.schema.json",
+  "description": "Rocketbot Asistente",
+  "active": true,
+  "version": "12.9.0",
+  "author": "Andres Quintero",
+  "license": "AGPL-3.0",
+  "imports": {
+    "modules": [],
+    "incomingMiddleware": [],
+    "outgoingMiddleware": [],
+    "contentTypes": [
+      "builtin_action-button",
+      "builtin_card",
+      "builtin_carousel",
+      "builtin_image",
+      "builtin_single-choice",
+      "builtin_text",
+      "dropdown"
+    ]
+  },
+  "dialog": {
+    "timeoutInterval": "5m"
+  },
+  "logs": {
+    "expiration": "1 week"
+  },
+  "defaultLanguage": "es",
+  "languages": [
+    "es"
+  ],
+  "id": "rocketbot-inbound",
+  "name": "Rocketbot Inbound (rocketbot-inbound)",
+  "pipeline_status": {
+    "current_stage": {
+      "id": "prod",
+      "promoted_on": "2020-04-29T12:43:53.125Z",
+      "promoted_by": "system"
+    }
+  }
+}
