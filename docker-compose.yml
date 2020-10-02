@@ -17,6 +17,7 @@ services:
     networks:
       - main_net 
   botpress:
+    restart: always
     build: ./services/botpress
     env_file: ./services/botpress/.env
     command: "./bp"
@@ -26,15 +27,5 @@ services:
       - postgres
     ports:
       - 3000:3000
-    networks:
-      - main_net 
-  nginx:
-    image: nginx:botpress
-    build: ./services/webpage
-    ports:
-      - 80:80
-      - 443:443
-    links:
-      - botpress
     networks:
       - main_net 
