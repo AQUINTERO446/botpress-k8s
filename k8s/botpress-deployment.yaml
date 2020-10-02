@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: botpress-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: botpress
+  template:
+    metadata:
+      labels:
+        component: botpress
+    spec:
+      containers:
+        - name: botpress
+          image: aquintero446/botpress-demo_botpress
+          ports:
+            - containerPort: 3000
+          env:
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: botdburl
+                  key: DATABASE_URL
+            - name: EXTERNAL_URL
+              value: 'http://0.0.0.0/botbuilder'
